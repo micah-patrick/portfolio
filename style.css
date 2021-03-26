@@ -10,7 +10,7 @@ header h1{
   padding-top: 20px;
 }
 
-h1, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'proxima nova', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
 }
@@ -86,21 +86,27 @@ main a:active{
 }
 #portfolio h3,
 #portfolio h5,
-#portfolio p{
+#portfolio h6,
+#portfolio p,
+#portfolio ul{
   color: #fff;
 }
-/* #portfolio a {
-  font-family: 'proxima nova', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #fff;
-  font-size: 19px;
-  display: block;
-  margin-top: 10px;
-} */
+#portfolio h5{
+  font-size: 16px;
+}
+#portfolio h6{
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+#portfolio ul{
+  padding-left: 17px;
+  margin: 0;
+}
+
 .portfolio-item {
   border-top: 1px solid #FFF;
   padding-top: 40px;
+
 }
 .portfolio-item:first-child {
   border: none;
